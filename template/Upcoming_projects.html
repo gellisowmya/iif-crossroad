@@ -1,0 +1,32 @@
+{% extends 'Home.html' %}
+{% block head %}
+{% block  title %} Upcoming Projects | Crossroads {% endblock %}
+ {{ super() }}
+{% endblock %}
+{% block body %}
+<h2 style="color:#0277bd"><center>Upcoming projects</center></h2>
+<table class="table table-striped">
+ 
+   <thead>
+    <tr>
+      <th scope="col">Sl.No</th>
+      <th scope="col">Project Title</th>
+      <th scope="col">Description</th>
+      <th scope="col">Team size</th>
+	  <th scope="col">Location</th>
+	  <th scope="col">Link to Git</th>
+    </tr>
+    </thead>
+	 <tbody id="datatable">
+	   <tr>
+          <th scope="col">row</th>
+          <td>India Innovation Project1 </td>
+          <td>Description nbdfdshgfhjgfhjfghbfdjkghsdjfhgfdjvndfjghghdfjvnfdjghdufghfj</td>
+          <td>5</td>
+          <td>Bangalore</td>
+          <td><a href="/" style="color:black">link to git</a></td>
+	   </tr>
+  </tbody>
+</table>
+</body>
+{% endblock %}
